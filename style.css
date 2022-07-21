@@ -44,7 +44,69 @@ font-family: 'Roboto', sans-serif;
    margin-left: 30px;
    width: 570px;
 }
+.short-button{
+    display: grid;
+    background-color: black;
+    width: 22%;
+    height: 400px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.short-button a{
+    width: 300px;
+    height: 70px;
+   text-align: center;
+   margin-left: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.blog-part{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.blog-part button{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.blog-part h3{
+    margin-left: 20px;
+}
+.blog-part img{
+    width: 100%;
+    
+}
+.logo-part{
+    display: flex;
+    padding-left: 15px;
+}
 
+.logo-part img{
+    width: 25px;
+    margin-left: 10px;
+    
+}
+.live-show-part{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.blog-right{
+   width: 70%;
+   height: 1000px;
+   display: grid;
+     grid-template-columns: auto auto auto;
+     grid-column-gap: 50px;
+}
 
 
 /* Media Queries */
@@ -61,7 +123,7 @@ font-family: 'Roboto', sans-serif;
       margin-left: 10px;
       margin-right: 20px;
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      
   }
   .right-part img{
       width: 400px;
